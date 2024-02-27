@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Q_AItem from "./Q_AItem";
-import Loader from "./Loader";
 
 const Q_A = ({ data }) => {
   const [curOpen, setCurOpen] = useState(null);
